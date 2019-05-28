@@ -7,6 +7,7 @@
 <br>
 这些解决方案是众多软件开发人员经过相当长的一段时间的试验和错误总结出来的。
 <br>
+
 参考：
 <br>
 [设计模式 | 菜鸟教程](https://www.runoob.com/design-pattern/design-pattern-tutorial.html)
