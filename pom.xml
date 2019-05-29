@@ -12,6 +12,7 @@
 
         <module>创建型模式/Factory</module>
         <module>创建型模式/AbstractFactory</module>
+        <module>行为型模式/观察者模式</module>
     </modules>
 
     <properties>
