@@ -11,6 +11,7 @@
     <modules>
 
         <module>创建型模式/Factory</module>
+        <module>创建型模式/AbstractFactory</module>
     </modules>
 
     <properties>
