@@ -43,3 +43,34 @@
 >1. JAVA 中已经有了对观察者模式的支持类。
 >1. 避免循环引用。
 >1. 如果顺序执行，某一观察者错误会导致系统卡壳，一般采用异步方式。
+
+```java
+import java.util.ArrayList;
+import java.util.List;
+ 
+public class Subject {
+   
+   private List<Observer> observers 
+      = new ArrayList<Observer>();
+   private int state;
+ 
+   public int getState() {
+      return state;
+   }
+ 
+   public void setState(int state) {
+      this.state = state;
+      notifyAllObservers();
+   }
+ 
+   public void attach(Observer observer){
+      observers.add(observer);      
+   }
+ 
+   public void notifyAllObservers(){
+      for (Observer observer : observers) {
+         observer.update();
+      }
+   }  
+}
+```
