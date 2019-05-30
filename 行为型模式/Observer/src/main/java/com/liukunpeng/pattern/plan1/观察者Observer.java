@@ -1,4 +1,4 @@
-package com.liukunpeng.pattern;
+package com.liukunpeng.pattern.plan1;
 
 public abstract class 观察者Observer {
     protected 主题 subject;

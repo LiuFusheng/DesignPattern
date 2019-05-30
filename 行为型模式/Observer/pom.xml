@@ -10,7 +10,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>观察者模式</artifactId>
+    <artifactId>Observer</artifactId>
 
 
 </project>
