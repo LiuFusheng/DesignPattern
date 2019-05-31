@@ -24,7 +24,7 @@
 <br>建造者模式（Builder Pattern）
 <br>原型模式（Prototype Pattern）
 ### 2	结构型模式
-#####这些设计模式关注类和对象的组合。继承的概念被用来组合接口和定义组合对象获得新功能的方式。	
+##### 这些设计模式关注类和对象的组合。继承的概念被用来组合接口和定义组合对象获得新功能的方式。	
 适配器模式（Adapter Pattern）
 <br>桥接模式（Bridge Pattern）
 <br>过滤器模式（Filter、Criteria Pattern）
