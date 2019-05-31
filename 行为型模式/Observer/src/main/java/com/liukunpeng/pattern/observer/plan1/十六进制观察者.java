@@ -1,4 +1,4 @@
-package com.liukunpeng.pattern.plan1;
+package com.liukunpeng.pattern.observer.plan1;
 
 public class 十六进制观察者 extends 观察者Observer {
 

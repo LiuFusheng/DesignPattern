@@ -1,9 +1,11 @@
-package com.liukunpeng.pattern;
+package com.liukunpeng.pattern.observer;
 
+import com.liukunpeng.pattern.observer.plan1.*;
 import com.liukunpeng.pattern.plan1.*;
-import com.liukunpeng.pattern.plan2.被观察者;
-import com.liukunpeng.pattern.plan2.被观察者2;
-import com.liukunpeng.pattern.plan2.观察者;
+import com.liukunpeng.pattern.observer.plan2.被观察者;
+import com.liukunpeng.pattern.observer.plan2.被观察者2;
+import com.liukunpeng.pattern.observer.plan2.观察者;
+import com.liukunpeng.pattern.observer.plan2.观察者2;
 import org.junit.Test;
 
 public class ObserverTest {
@@ -33,12 +35,13 @@ public class ObserverTest {
         被观察者 blogUser=new 被观察者();
         被观察者2 blogUser2=new 被观察者2();
         观察者 blog=new 观察者();
-        blogUser.addObserver(blog);//注册：参数是观察者对象
+        观察者2 blog2=new 观察者2();
+        blogUser.addObserver(blog2);//注册：参数是观察者对象
         blogUser.addObserver(blog);//注册：参数是观察者对象
        // blogUser2.addObserver(blog);//注册：参数是观察者对象
         blogUser.sendBlog("学猫叫","喵喵喵");
-        blogUser.sendBlog("学狗叫","汪汪汪");
-        blogUser2.sendBlog("22222","@@@@@@@");
+       // blogUser.sendBlog("学狗叫","汪汪汪");
+     //   blogUser2.sendBlog("22222","@@@@@@@");
     }
 
 }

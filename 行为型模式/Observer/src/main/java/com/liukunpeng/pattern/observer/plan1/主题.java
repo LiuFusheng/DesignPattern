@@ -1,4 +1,4 @@
-package com.liukunpeng.pattern.plan1;
+package com.liukunpeng.pattern.observer.plan1;
 
 import java.util.ArrayList;
 import java.util.List;

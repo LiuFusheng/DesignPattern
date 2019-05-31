@@ -1,8 +1,8 @@
-package com.liukunpeng.pattern.plan2;
+package com.liukunpeng.pattern.observer.plan2;
 
 import java.util.Observable;
 
-public class 被观察者 extends Observable {
+public class 被观察者2 extends Observable {
     public  void sendBlog(String title,String context){
         this.setChanged();
         Blog blog=new Blog(title,context);

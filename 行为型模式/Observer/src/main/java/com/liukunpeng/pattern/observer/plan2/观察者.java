@@ -1,4 +1,4 @@
-package com.liukunpeng.pattern.plan2;
+package com.liukunpeng.pattern.observer.plan2;
 
 import java.util.Observable;
 import java.util.Observer;
