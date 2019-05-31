@@ -14,6 +14,9 @@
         <module>创建型模式/AbstractFactory</module>
         <module>行为型模式/Observer</module>
         <module>创建型模式/Singleton</module>
+        <module>创建型模式/Builder</module>
+        <module>创建型模式/Prototype</module>
+        <module>行为型模式/ChainOfResponsibility</module>
     </modules>
 
     <properties>
